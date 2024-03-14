@@ -66,13 +66,13 @@ client.on('messageCreate', async message => {
                 try {
                     await member.send('Test mesajı . . . ');
                 } catch (error) {
-                    console.error(`Error sending DM to ${member.user.tag}:`, error);
+                    console.error(`malzemeye mesja gitmedi ${member.user.tag}:`, error);
                 }
             });
 
-            console.log('DMs sent successfully to all members!');
+            console.log('piuvv');
         } catch (error) {
-            console.error('Error sending DMs to all members:', error);
+            console.error('yollanılmadı:', error);
         }
     }
 });
